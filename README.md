@@ -1,5 +1,3 @@
-# oad-visual-test-automation
-
 **Automates visual mod testing for the 0 A.D. game.**
 
 This project provides a Python script to automate the process of launching 0 A.D., starting a single-player game, navigating the GUI, and exiting, primarily for testing visual modifications (mods). It leverages image recognition for GUI interaction and offers optional audio feedback using text-to-speech (TTS).
@@ -8,7 +6,7 @@ This project provides a Python script to automate the process of launching 0 A.D
 
 *   **Automated Visual Testing:** Streamlines the process of testing visual changes in 0 A.D. by automating game launch, GUI navigation, and exit.
 *   **Image Recognition-Based GUI Interaction:** Uses `PyAutoGUI` to locate and interact with GUI elements, making the script adaptable to UI variations.
-*   **Configurable Image Locations:** GUI element locations are stored in `image_locations.json`, allowing easy adjustments for different screen resolutions and UI settings.
+*   **Optimized Image Search:**  Stores the last known locations of GUI elements in `image_locations.json` to speed up image recognition by searching near those locations first.
 *   **Audio Feedback (Optional):** Provides audio cues (using `espeak-ng`) to indicate script progress.
 *   **Robust Process Termination:** Includes multiple methods to ensure clean termination of the 0 A.D. process.
 
@@ -18,7 +16,7 @@ This project provides a Python script to automate the process of launching 0 A.D
 *   **PyAutoGUI:** For cross-platform GUI automation and image recognition.
 *   **xdotool (Linux):** For window management (focusing the 0 A.D. window).
 *   **espeak-ng (Optional):** For text-to-speech audio feedback.
-*   **JSON:** For storing configurable image locations (`image_locations.json`).
+*   **JSON:** For storing last-known image locations (`image_locations.json`).
 
 ## Installation
 
