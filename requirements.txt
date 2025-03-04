@@ -1,0 +1,4 @@
+pyautogui  # Replace with the actual version you see
+Pillow  # Replace with the actual version you see
+pytweening #Replace with the actual version you see
+opencv-python
