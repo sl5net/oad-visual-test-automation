@@ -1,46 +1,99 @@
-**Overall Purpose:**
+# oad-visual-test-automation
 
-The script automates the process of launching 0 A.D., starting a single-player game, and then exiting the game, using image recognition to interact with the GUI. It also provides audio feedback using text-to-speech (TTS).
+**Automates visual mod testing for the 0 A.D. game.**
 
-**Code Breakdown:**
+This project provides a Python script to automate the process of launching 0 A.D., starting a single-player game, navigating the GUI, and exiting, primarily for testing visual modifications (mods). It leverages image recognition for GUI interaction and offers optional audio feedback using text-to-speech (TTS).
 
-1.  **Import Statements:** Imports necessary modules:
-    *   `pyautogui`: For controlling the mouse and keyboard and performing image recognition.
-    *   `time`: For adding delays.
-    *   `subprocess`: For running external commands (like `xdotool` and `espeak-ng`).
-    *   `os`: For interacting with the operating system (e.g., getting the path to the AppImage).
+## Features
 
-2.  **IMPORTANT Comment:** This reminds anyone reading the code (especially AI models) to avoid making unnecessary changes to the image file names.
+*   **Automated Visual Testing:** Streamlines the process of testing visual changes in 0 A.D. by automating game launch, GUI navigation, and exit.
+*   **Image Recognition-Based GUI Interaction:** Uses `PyAutoGUI` to locate and interact with GUI elements, making the script adaptable to UI variations.
+*   **Configurable Image Locations:** GUI element locations are stored in `image_locations.json`, allowing easy adjustments for different screen resolutions and UI settings.
+*   **Audio Feedback (Optional):** Provides audio cues (using `espeak-ng`) to indicate script progress.
+*   **Robust Process Termination:** Includes multiple methods to ensure clean termination of the 0 A.D. process.
 
-3.  **`DEFAULT_SLEEP`:** Defines a default sleep duration (0.1 seconds) to be used throughout the script.
+## Technologies Used
 
-4.  **`focus_window_xdotool(window_title)`:** A function to focus a window with a given title using the `xdotool` command-line utility. This is used to bring the 0 A.D. window to the front.
+*   **Python 3.6+**
+*   **PyAutoGUI:** For cross-platform GUI automation and image recognition.
+*   **xdotool (Linux):** For window management (focusing the 0 A.D. window).
+*   **espeak-ng (Optional):** For text-to-speech audio feedback.
+*   **JSON:** For storing configurable image locations (`image_locations.json`).
 
+## Installation
 
+1.  **Prerequisites:**
+    *   Python 3.6 or higher
+    *   0 A.D. AppImage (recommended) or a locally installed version.
+    *   Linux-based operating system (for `xdotool` window management).  While `pyautogui` is cross-platform, `xdotool` is used for focus.
 
-5.  **`speak(text)`:** A function to speak text using the `espeak-ng` TTS engine.
+2.  **Install System Dependencies:**
+    *   **xdotool (Linux):**
+        ```bash
+        sudo apt-get install xdotool  # Debian/Ubuntu
+        # sudo yum install xdotool    # CentOS/RHEL/Fedora
+        ```
+    *   **espeak-ng (Optional - for audio feedback):**
+        ```bash
+        sudo apt-get install espeak-ng  # Debian/Ubuntu
+        # sudo yum install espeak-ng    # CentOS/RHEL/Fedora
+        ```
 
-6.  **`launch_0ad()`:** A function to launch the 0 A.D. AppImage.
+3.  **Clone the Repository:**
 
-7.  **`locate_button(image_files, confidence)`:** A function that takes a list of image file names and tries to locate a button on the screen using each image, one at a time. This provides some redundancy if the button's appearance varies slightly.
+    ```bash
+    git clone git@github.com:sl5net/oad-visual-test-automation.git
+    cd oad-visual-test-automation
+    ```
 
-8.  **`end_0ad()`:** A function to terminate the 0 A.D. process using a series of commands (pkill, killall, kill -9) to ensure it's properly closed.
+4.  **Create a Virtual Environment (Recommended):**
 
-9.  **Main Script (`if __name__ == "__main__":`)**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # Linux/macOS
+    # venv\Scripts\activate  # Windows
+    ```
 
-    *   **Focus/Launch 0 A.D.:** Tries to focus the 0 A.D. window. If it's not found, it launches 0 A.D. using the AppImage.
-    * 1  **Click "Single Player":** Uses the `locate_button` function to find and click the "Single Player" button.
-    * 2  **Click "Matches":** Finds and clicks the "Matches" button.
-    * 3  **Click "Start Game":** Finds and clicks the "Start Game" button.
-    * 4  **Click "Menu":** Uses the `locate_button` function to find and click the "Menu" button.
-    * 5  **Click "Exit":** Finds and clicks the "Exit" button (this is assumed to be the in-game exit, brings to main menu).
-    * 6  **Click "Quit":** Finds and clicks the "Quit" button, and adds one click
-    * 7  **Click "Yes":** Finds and clicks the "Yes" button to confirm the exit (this is assumed to be after the game exits).
-        If any of the image-based steps fail (the button is not found), the script calls the `end_0ad()` function to terminate 0 A.D. and then exits.
+5.  **Install Python Dependencies:**
 
-**In Summary:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-The script is designed to fully automate the process of starting 0 A.D., launching a game, and then exiting the game, all while providing audio feedback. It uses a combination of image recognition, window management, and process termination techniques to achieve its goals.
-It also was made sure from user the name of the files are not changed and are only used for its
-If I missunderstood soemthing please let me know and I will look again to help you.
+    (The `requirements.txt` file lists all necessary Python packages.)
 
+## Configuration
+
+*   **`image_locations.json`:**  This file is critical for adapting the script to different screen resolutions and UI variations in 0 A.D. It contains the coordinates of GUI elements used by the script.
+
+    *   If the script fails to locate UI elements, you will need to manually update the coordinates in this file.
+    *   The script attempts to save the locations as they are found, but manual adjustments may be needed.
+
+*   **AppImage Path:**  Modify the `appimage_path` variable in the `launch_0ad()` function to point to the correct location of your 0 A.D. AppImage file. This path is currently set to `os.path.expanduser("~/Apps/0ad.AppImage")`.
+
+## Usage
+
+1.  **Run the Script:**
+
+    ```bash
+    python your_script_name.py  # Replace "your_script_name.py" with the actual script name
+    ```
+
+2.  **Observe the Script:** The script will automatically launch 0 A.D., navigate the GUI, and eventually exit. Audio feedback (if enabled) will provide status updates.
+
+3.  **Troubleshooting Image Recognition:** If the script fails to locate GUI elements:
+
+    *   Examine the script's output for error messages indicating which images could not be found.
+    *   Use a screenshot tool to capture images of the GUI elements that the script is failing to find.  Ensure that the image files in the repository match the actual GUI elements in 0 A.D.
+    *   Update the coordinates in `image_locations.json` accordingly.  Use tools like `xdotool getmouselocation` to precisely determine the coordinates of UI elements.
+
+## Important Notes for Developers
+
+*   **Image File Naming:** The names of the image files used for image recognition are deliberately chosen and should **not** be changed without careful consideration.  Changing these names will break the script.
+*   **GUI Variations:** 0 A.D.'s GUI may change in future versions, requiring updates to the image files and `image_locations.json`.
+*   **Customization:** The script is designed to be customized for specific testing scenarios.  Feel free to modify the script to suit your needs.
+*    **Virtual Environment:**  Always work within a virtual environment to manage project dependencies.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository, create a branch for your changes, and submit a pull request.
