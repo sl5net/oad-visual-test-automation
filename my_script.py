@@ -53,7 +53,7 @@ def speak(text):
         print(f"An error occurred during TTS: {e}")
 
 def launch_0ad():
-    appimage_path = os.path.expanduser("~/Apps/0ad.AppImage")  # Use expanduser for ~
+    appimage_path = os.path.expanduser("~/Apps/0ad.AppImage -quickstart")  # Use expanduser for ~
     try:
         # speak("Launching 0 A.D.") # REMOVED
         subprocess.Popen([appimage_path], start_new_session=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)  # Launch in the background and detach
