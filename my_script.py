@@ -183,7 +183,7 @@ if __name__ == "__main__":
             exit()
 
     while True:
-        click_button(['googleAIstudio/TypeSomething_not_focused.png'], "TypeSomething", confidence=0.9, sleep_after=9)
+        click_button(['images/googleAIstudio/TypeSomething_not_focused.png'], "TypeSomething", confidence=0.9, sleep_after=9)
         time.sleep(15)
 
 # The End
