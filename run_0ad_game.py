@@ -235,18 +235,18 @@ if __name__ == "__main__":
     time.sleep(2 * DEFAULT_SLEEP)  # Give the window time to fully activate
 
     # 1. Click the "Single Player" button:
-    single_player_images = ['single_player_button.png', 'single_player_button_01.png', 'single_player_button_02.png']  # List with the files
+    single_player_images = ['images/0ad/single_player_button.png', 'single_player_button_01.png', 'single_player_button_02.png']  # List with the files
     click_button(single_player_images, "Single Player Button")  # use the function to locate the button and click it
 
     # 2. Click the "Matches" button (after clicking "Single Player"):
-    click_button(['matches_button.png'], "Matches Button")
+    click_button(['images/0ad/matches_button.png'], "Matches Button")
 
     # 3. Click the "Start Game" button (after clicking "Matches"):
-    click_button(['start_game_button.png'], "Start Game Button", sleep_after=2)  # Specific
+    click_button(['images/0ad/start_game_button.png'], "Start Game Button", sleep_after=2)  # Specific
     time.sleep(1)
 
     # 4. Click the "Menu" button (after the game has started):
-    menu_button_images = ['menu_button.png', 'menu_button_01.png', 'menu_button_02.png']  # List the name
+    menu_button_images = ['images/0ad/menu_button.png', 'menu_button_01.png', 'menu_button_02.png']  # List the name
     # click_button(menu_button_images, "Menu Button")  # Modify
 
     # 5. Click the "Exit" Button (After clicking Menu):
