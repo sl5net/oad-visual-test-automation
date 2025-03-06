@@ -10,6 +10,16 @@ This project provides a Python script to automate the process of launching 0 A.D
 *   **Audio Feedback (Optional):** Provides audio cues (using `espeak-ng`) to indicate script progress.
 *   **Robust Process Termination:** Includes multiple methods to ensure clean termination of the 0 A.D. process.
 
+## Usage
+
+**Run the Script:**
+
+    ```bash
+    source venv/bin/activate  # run your venv Linux/macOS
+    python my_script.py  # rund your "your_script_name.py"
+    ```
+    see also the example run_script.sh
+
 ## Technologies Used
 
 *   **Python 3.6+**
@@ -36,7 +46,27 @@ This project provides a Python script to automate the process of launching 0 A.D
         sudo apt-get install espeak-ng  # Debian/Ubuntu
         # sudo yum install espeak-ng    # CentOS/RHEL/Fedora
         ```
+## Usage
 
+1.  **Run the Script:**
+
+    ```bash
+    source venv/bin/activate  # run your venv Linux/macOS
+    python my_script.py  # rund your "your_script_name.py"
+    ```
+    see also the example run_script.sh
+
+2.  **Observe the Script:** The script will automatically launch 0 A.D., navigate the GUI, and eventually exit. Audio feedback (if enabled) will provide status updates.
+
+3.  **Troubleshooting Image Recognition:** If the script fails to locate GUI elements:
+
+    *   Examine the script's output for error messages indicating which images could not be found.
+    *   Use a screenshot tool to capture images of the GUI elements that the script is failing to find.  Ensure that the image files in the repository match the actual GUI elements in 0 A.D.
+    *   Update the coordinates in `image_locations.json` accordingly.  Use tools like `xdotool getmouselocation` to precisely determine the coordinates of UI elements.
+
+
+my_script.py 
+        
 3.  **Clone the Repository:**
 
     ```bash
@@ -69,28 +99,18 @@ This project provides a Python script to automate the process of launching 0 A.D
 
 *   **AppImage Path:**  Modify the `appimage_path` variable in the `launch_0ad()` function to point to the correct location of your 0 A.D. AppImage file. This path is currently set to `os.path.expanduser("~/Apps/0ad.AppImage")`.
 
-## Usage
-
-1.  **Run the Script:**
-
-    ```bash
-    python your_script_name.py  # Replace "your_script_name.py" with the actual script name
-    ```
-
-2.  **Observe the Script:** The script will automatically launch 0 A.D., navigate the GUI, and eventually exit. Audio feedback (if enabled) will provide status updates.
-
-3.  **Troubleshooting Image Recognition:** If the script fails to locate GUI elements:
-
-    *   Examine the script's output for error messages indicating which images could not be found.
-    *   Use a screenshot tool to capture images of the GUI elements that the script is failing to find.  Ensure that the image files in the repository match the actual GUI elements in 0 A.D.
-    *   Update the coordinates in `image_locations.json` accordingly.  Use tools like `xdotool getmouselocation` to precisely determine the coordinates of UI elements.
-
 ## Important Notes for Developers
 
 *   **Image File Naming:** The names of the image files used for image recognition are deliberately chosen and should **not** be changed without careful consideration.  Changing these names will break the script.
 *   **GUI Variations:** 0 A.D.'s GUI may change in future versions, requiring updates to the image files and `image_locations.json`.
 *   **Customization:** The script is designed to be customized for specific testing scenarios.  Feel free to modify the script to suit your needs.
 *    **Virtual Environment:**  Always work within a virtual environment to manage project dependencies.
+
+#### system/readme.txt
+
+`-quickstart         load faster (disables audio and some system info logging)`
+
+https://gitea.wildfiregames.com/0ad/0ad/src/commit/c4489733982d36d2d2b4703e50f7ff5d6e5f33fe/binaries/system/readme.txt
 
 ## Contributing
 

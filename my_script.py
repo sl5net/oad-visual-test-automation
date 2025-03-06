@@ -43,6 +43,7 @@ def focus_window_xdotool(window_title="0 A.D."):
     except Exception as e:
         print(f"Error focusing window with xdotool: {e}")
         return False
+    # appimage_path = os.path.expanduser("~/Apps/0ad.AppImage -quickstart -autostart-nonvisual -autostart-speed=20")
 
 def speak(text):
     try:
@@ -53,15 +54,23 @@ def speak(text):
         print(f"An error occurred during TTS: {e}")
 
 def launch_0ad():
-    appimage_path = os.path.expanduser("~/Apps/0ad.AppImage -quickstart")  # Use expanduser for ~
+    # https://gitea.wildfiregames.com/0ad/0ad/src/commit/c4489733982d36d2d2b4703e50f7ff5d6e5f33fe/binaries/system/readme.txt
+    # -autostart-nonvisual
+    appimage_path = os.path.expanduser("~/Apps/0ad-0.27.0-linux-x86_64.AppImage")
+    # Use expanduser for ~
     try:
         # speak("Launching 0 A.D.") # REMOVED
-        subprocess.Popen([appimage_path], start_new_session=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)  # Launch in the background and detach
+        # -quickstart
+        # subprocess.Popen(['ls -l'], shell=True)
+        # subprocess.run(["ls", "-l"])
+        # subprocess.run([appimage_path,"-quickstart -autostart-speed=2"], shell=True, start_new_session=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+        subprocess.Popen(f"{appimage_path} -quickstart -autostart-speed=2", shell=True, start_new_session=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         time.sleep(10 * DEFAULT_SLEEP)  # Allow the game time to start (adjust as needed)
         return True
     except FileNotFoundError:
         speak("Error: 0 A.D. AppImage not found. Please check the path.")
-        print("Error: 0 A.D. AppImage not found. Please check the path.")
+        print(f"Error: 0 A.D. AppImage not found. {appimage_path}.")
         return False
     except Exception as e:
         speak(f"Error launching 0 A.D.: {e}")
@@ -238,18 +247,18 @@ if __name__ == "__main__":
 
     # 4. Click the "Menu" button (after the game has started):
     menu_button_images = ['menu_button.png', 'menu_button_01.png', 'menu_button_02.png']  # List the name
-    click_button(menu_button_images, "Menu Button")  # Modify
+    # click_button(menu_button_images, "Menu Button")  # Modify
 
     # 5. Click the "Exit" Button (After clicking Menu):
-    click_button(['exit_button.png'], "Exit Button")
+    #click_button(['exit_button.png'], "Exit Button")
 
     # 6. Click the "Quit" Button - I don't this is needed.
-    click_button(['quit_button.png'], "Quit Button", confidence=0.9)
+    # click_button(['quit_button.png'], "Quit Button", confidence=0.9)
 
     # 7. Click the "Exit" Button (now we are in Main Menu):
-    click_button(['exit_button2.png'], "Exit Button2")
+    # click_button(['exit_button2.png'], "Exit Button2")
 
     # 8. Click the "YES" Button (Now on main View)
-    click_button(['yes_button.png'], "YES Button", confidence=0.9, sleep_after=5)  # All finished here
+    # click_button(['yes_button.png'], "YES Button", confidence=0.9, sleep_after=5)  # All finished here
 
 # The End
