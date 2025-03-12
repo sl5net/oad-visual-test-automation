@@ -20,4 +20,7 @@ python_path = os.path.join(project_path, "autogui_01_env", "bin", "python")
 script_path = os.path.join(project_path, "0ad_alertstop.py")
 
 command = f'cd "{project_path}" && source autogui_01_env/bin/activate && "{python_path}" "{script_path}"'
-
+try:
+    subprocess.run(command, shell=True, check=True)  # Check=True raises an exception if the command fails
+except subprocess.CalledProcessError as e:
+    print(f"Error running the script: {e}") #Handle errors so autokey does not end
