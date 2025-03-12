@@ -1,6 +1,5 @@
 # recomandet hotkey ^
 # may read also https://github.com/sl5net/0ad-autokey-scripts/
-
 import subprocess
 import os
 from pathlib import Path
@@ -15,15 +14,10 @@ time.sleep(.25)
 keyboard.send_keys('<ctrl>+c')
 time.sleep(.25)
 
-# python_path = Path.home() && "/projects/oad-visual-test-automation/autogui_01_env/bin/python"
-# script_path = Path.home() && "/projects/oad-visual-test-automation/0ad_alert.py"
-# project_path = Path.home() && "/projects/oad-visual-test-automation"
-
 home_dir = str(Path.home())
-python_path = "/home/seeh/projects/oad-visual-test-automation/autogui_01_env/bin/python"
-script_path = "/home/seeh/projects/oad-visual-test-automation/0ad_alert.py"
-project_path = "/home/seeh/projects/oad-visual-test-automation"
-command = f'cd "{project_path}" && source autogui_01_env/bin/activate && "{python_path}" "{script_path}"'
+project_path = os.path.join(home_dir, "projects", "oad-visual-test-automation")
+python_path = os.path.join(project_path, "autogui_01_env", "bin", "python")
+script_path = os.path.join(project_path, "0ad_alert.py")
 
 command = f'cd "{project_path}" && source autogui_01_env/bin/activate && "{python_path}" "{script_path}"'
 try:
