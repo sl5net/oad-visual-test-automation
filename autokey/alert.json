@@ -5,7 +5,7 @@
     "modes": [
         3
     ],
-    "usageCount": 80,
+    "usageCount": 81,
     "prompt": false,
     "omitTrigger": false,
     "showInTrayMenu": false,
@@ -22,7 +22,7 @@
         "hotKey": "\ufe52"
     },
     "filter": {
-        "regex": null,
+        "regex": "pyrogenesis.pyrogenesis",
         "isRecursive": false
     }
 }

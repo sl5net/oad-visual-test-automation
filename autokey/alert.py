@@ -21,8 +21,6 @@ script_path = os.path.join(project_path, "0ad_clickButton.py")
 
 button_name = "alert_button"
 command = f'cd "{project_path}" && source autogui_01_env/bin/activate && "{python_path}" "{script_path}" "{button_name}"'
-    # command = f'cd "{project_path}" && source autogui_01_env/bin/activate && "{python_path}" "{script_path}"'  ### that was the working line befure
-
 try:
     subprocess.run(command, shell=True, check=True)  
 except subprocess.CalledProcessError as e:
