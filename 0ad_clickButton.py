@@ -75,7 +75,9 @@ def locate_button(image_files, confidence=0.7, last_location=None, tolerance=50)
 
         except pyautogui.ImageNotFoundException:
             print(f"Button not found using image: {image_file}")
+            speak(f"78")
 
+    speak(f"80")
     return None
 
 def click_button(button_image, button_name, confidence=0.7, sleep_after=DEFAULT_SLEEP):

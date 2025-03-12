@@ -126,3 +126,4 @@ if __name__ == "__main__":
 
     single_player_images = ['images/0ad/alertstop_button.png']
     click_button(single_player_images, "alertstop_button.png Button")
+

@@ -17,10 +17,14 @@ time.sleep(.25)
 home_dir = str(Path.home())
 project_path = os.path.join(home_dir, "projects", "oad-visual-test-automation")
 python_path = os.path.join(project_path, "autogui_01_env", "bin", "python")
-script_path = os.path.join(project_path, "0ad_alert.py")
+script_path = os.path.join(project_path, "0ad_clickButton.py")
 
-command = f'cd "{project_path}" && source autogui_01_env/bin/activate && "{python_path}" "{script_path}"'
+button_name = "alert_button"
+command = f'cd "{project_path}" && source autogui_01_env/bin/activate && "{python_path}" "{script_path}" "{button_name}"'
+    # command = f'cd "{project_path}" && source autogui_01_env/bin/activate && "{python_path}" "{script_path}"'  ### that was the working line befure
+
 try:
-    subprocess.run(command, shell=True, check=True)  # Check=True raises an exception if the command fails
+    subprocess.run(command, shell=True, check=True)  
 except subprocess.CalledProcessError as e:
-    print(f"Error running the script: {e}") #Handle errors so autokey does not end
+    print(f"Error running the script: {e}")
+
