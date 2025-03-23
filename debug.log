@@ -1,0 +1,26 @@
+2025-03-24 00:22:35,255 - INFO - Button name received: alert_button
+2025-03-24 00:22:40,723 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-24 00:22:40,723 - WARNING - 'alert_button Button' not found 130
+2025-03-24 00:22:45,554 - INFO - Button name received: alertstop_button
+2025-03-24 00:22:45,800 - WARNING - 'alertstop_button Button' not found 130
+2025-03-24 00:23:08,254 - INFO - Button name received: alertstop_button
+2025-03-24 00:23:08,509 - WARNING - 'alertstop_button Button' not found 130
+2025-03-24 00:27:41,682 - INFO - Button name received: alert_button
+2025-03-24 00:27:47,124 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-24 00:27:47,124 - WARNING - 'images/0ad/alert_button.png' not found 130
+2025-03-24 00:28:19,018 - INFO - Button name received: alert_button
+2025-03-24 00:28:24,472 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-24 00:28:24,472 - WARNING - 'alert_button' not found 130
+2025-03-24 00:28:28,247 - INFO - Button name received: alertstop_button
+2025-03-24 00:28:28,494 - WARNING - 'alertstop_button' not found 128
+2025-03-24 00:28:30,919 - INFO - Button name received: alertstop_button
+2025-03-24 00:28:31,171 - WARNING - 'alertstop_button' not found 128
+2025-03-24 00:28:31,450 - INFO - Button name received: alertstop_button
+2025-03-24 00:28:31,704 - WARNING - 'alertstop_button' not found 128
+2025-03-24 00:29:52,927 - INFO - Button name received: alertstop_button
+2025-03-24 00:29:53,188 - WARNING - 'alertstop_button' not found 130
+2025-03-24 00:29:54,849 - INFO - Button name received: alertstop_button
+2025-03-24 00:29:55,102 - WARNING - 'alertstop_button' not found 130
+2025-03-24 00:29:57,064 - INFO - Button name received: alert_button
+2025-03-24 00:30:02,515 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-24 00:30:05,266 - WARNING - 'alert_button' not found 130

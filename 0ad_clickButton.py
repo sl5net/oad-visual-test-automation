@@ -4,6 +4,12 @@ import subprocess
 import os
 import json
 import sys
+import logging
+
+# Configure logging
+logging.basicConfig(filename='debug.log', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 # Activate the Virtual Environment
 
@@ -26,6 +32,7 @@ def speak(text):
         subprocess.run(['espeak-ng', text])
     except FileNotFoundError:
         print("Error: espeak-ng is not installed. Please install it.")
+        logging.error("Error: espeak-ng is not installed. Please install it.")
     except Exception as e:
         print(f"An error occurred during TTS: {e}")
 
@@ -74,10 +81,10 @@ def locate_button(image_files, confidence=0.7, last_location=None, tolerance=50)
                 return button_location  # Return the entire Box object
 
         except pyautogui.ImageNotFoundException:
-            print(f"Button not found using image: {image_file}")
-            speak(f"78")
-
-    speak(f"80")
+            if button_name != "alertstop_button":
+                print(f"Button not found using image: {image_file}")
+                speak(f"Button not found using image: {image_file}")
+                logging.warning(f"Button not found using image: {image_file}")
     return None
 
 def click_button(button_image, button_name, confidence=0.7, sleep_after=DEFAULT_SLEEP):
@@ -99,7 +106,8 @@ def click_button(button_image, button_name, confidence=0.7, sleep_after=DEFAULT_
     if button_location:
         # click the button
         pyautogui.click(pyautogui.center(button_location))
-        speak(f"{button_name} clicked")
+        if button_name != "alertstop_button":
+            speak(f"{button_name} clicked")
         time.sleep(sleep_after)
 
         # Save the location now
@@ -116,15 +124,18 @@ def click_button(button_image, button_name, confidence=0.7, sleep_after=DEFAULT_
 
         save_image_locations(image_locations)  # save this location.
     else:
-        print(f"{button_name} not found!")
-        speak(f"{button_name} not found")
+        if button_name != "alertstop_button":
+            speak(f"{button_name} not found 130")
+        logging.warning(f"'{button_name}' not found 130")
         end_0ad()
         exit()
 
 if __name__ == "__main__":
 
     button_name = sys.argv[1]
-    #speak(f"{button_name}")
+
+    button_name = sys.argv[1]
+    logging.info(f"Button name received: {button_name}")
 
     global image_locations  # Use it here in global
 
@@ -134,7 +145,7 @@ if __name__ == "__main__":
     image1 = f'images/0ad/{button_name}.png'
     #speak(f"{image1}")
     single_player_images = [image1]
-    click_button(single_player_images, f'{button_name} Button')
+    click_button(single_player_images, f'{button_name}')
 
 
 
