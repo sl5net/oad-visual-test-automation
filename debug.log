@@ -24,3 +24,813 @@
 2025-03-24 00:29:57,064 - INFO - Button name received: alert_button
 2025-03-24 00:30:02,515 - WARNING - Button not found using image: images/0ad/alert_button.png
 2025-03-24 00:30:05,266 - WARNING - 'alert_button' not found 130
+2025-03-24 00:48:42,749 - INFO - Button name received: alertstop_button
+2025-03-24 00:48:43,007 - WARNING - 'alertstop_button' not found 130
+2025-03-24 14:30:33,017 - INFO - Button name received: alertstop_button
+2025-03-24 14:30:33,275 - WARNING - 'alertstop_button' not found 130
+2025-03-24 14:30:43,401 - INFO - Button name received: alertstop_button
+2025-03-24 14:30:43,638 - WARNING - 'alertstop_button' not found 130
+2025-03-24 15:44:40,242 - INFO - Button name received: alertstop_button
+2025-03-24 15:44:40,474 - WARNING - 'alertstop_button' not found 130
+2025-03-24 15:48:42,695 - INFO - Button name received: alertstop_button
+2025-03-24 15:48:42,947 - WARNING - 'alertstop_button' not found 130
+2025-03-24 15:49:21,861 - INFO - Button name received: alertstop_button
+2025-03-24 15:49:22,097 - WARNING - 'alertstop_button' not found 130
+2025-03-24 16:02:14,309 - INFO - Button name received: alertstop_button
+2025-03-24 16:02:14,489 - INFO - Button name received: alertstop_button
+2025-03-24 16:02:14,593 - WARNING - 'alertstop_button' not found 130
+2025-03-24 16:02:14,739 - WARNING - 'alertstop_button' not found 130
+2025-03-24 16:03:30,642 - INFO - Button name received: alertstop_button
+2025-03-24 16:03:30,880 - WARNING - 'alertstop_button' not found 130
+2025-03-24 16:59:55,857 - INFO - Button name received: alert_button
+2025-03-24 17:00:01,342 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-24 17:00:04,110 - WARNING - 'alert_button' not found 130
+2025-03-24 17:02:46,733 - INFO - Button name received: alertstop_button
+2025-03-24 17:02:46,968 - WARNING - 'alertstop_button' not found 130
+2025-03-24 20:27:37,964 - INFO - Button name received: alert_button
+2025-03-24 20:27:43,465 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-24 20:27:46,218 - WARNING - 'alert_button' not found 130
+2025-03-24 22:42:12,933 - INFO - Button name received: alert_button
+2025-03-24 22:42:18,349 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-24 22:42:21,125 - WARNING - 'alert_button' not found 130
+2025-03-25 09:45:25,398 - INFO - Button name received: alert_button
+2025-03-25 09:45:30,905 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 09:45:33,678 - WARNING - 'alert_button' not found 130
+2025-03-25 10:30:45,035 - INFO - Button name received: lobby_borg_red
+2025-03-25 10:30:50,566 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-03-25 10:30:53,419 - WARNING - 'lobby_borg_red' not found 130
+2025-03-25 10:31:02,602 - INFO - Button name received: lobby_borg_red
+2025-03-25 10:31:08,134 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-03-25 10:31:10,965 - WARNING - 'lobby_borg_red' not found 130
+2025-03-25 10:33:40,180 - INFO - Button name received: einstellungen_button.png
+2025-03-25 10:33:46,316 - INFO - Button name received: einstellungen_button.png
+2025-03-25 10:34:30,546 - INFO - Button name received: einstellungen_button
+2025-03-25 10:37:17,404 - INFO - Button name received: mod-auswahl_button
+2025-03-25 10:37:26,446 - INFO - Button name received: alertstop_button
+2025-03-25 10:37:26,698 - WARNING - 'alertstop_button' not found 130
+2025-03-25 10:37:36,090 - INFO - Button name received: einstellungen_button
+2025-03-25 10:37:40,334 - INFO - Button name received: mod-auswahl_button
+2025-03-25 10:39:10,685 - INFO - Button name received: alertstop_button
+2025-03-25 10:39:10,931 - WARNING - 'alertstop_button' not found 130
+2025-03-25 10:39:11,733 - INFO - Button name received: einstellungen_button
+2025-03-25 10:39:15,243 - INFO - Button name received: mod-auswahl_button
+2025-03-25 10:39:18,532 - INFO - Button name received: alertstop_button
+2025-03-25 10:39:18,782 - WARNING - 'alertstop_button' not found 130
+2025-03-25 10:40:06,946 - INFO - Button name received: einstellungen_button
+2025-03-25 10:40:07,813 - INFO - Button name received: mod-auswahl_button
+2025-03-25 10:40:12,949 - INFO - Button name received: alertstop_button
+2025-03-25 10:40:13,197 - WARNING - 'alertstop_button' not found 130
+2025-03-25 10:40:14,001 - INFO - Button name received: einstellungen_button
+2025-03-25 10:40:14,179 - INFO - Button name received: mod-auswahl_button
+2025-03-25 10:40:18,381 - INFO - Button name received: alertstop_button
+2025-03-25 10:40:18,631 - WARNING - 'alertstop_button' not found 130
+2025-03-25 10:40:19,833 - INFO - Button name received: einstellungen_button
+2025-03-25 10:40:19,956 - INFO - Button name received: mod-auswahl_button
+2025-03-25 10:40:22,192 - INFO - Button name received: mod-auswahl_button
+2025-03-25 10:40:25,766 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-25 10:40:28,821 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-25 10:42:23,932 - INFO - Button name received: einstellungen_button
+2025-03-25 10:42:29,755 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 10:42:32,911 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 10:46:32,323 - INFO - Button name received: einstellungen_button
+2025-03-25 10:46:38,146 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 10:46:41,302 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 10:46:56,107 - INFO - Button name received: einstellungen_button
+2025-03-25 10:47:01,931 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 10:47:05,085 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 10:48:13,595 - INFO - Button name received: alertstop_button
+2025-03-25 10:48:13,841 - WARNING - 'alertstop_button' not found 130
+2025-03-25 10:51:20,432 - INFO - Button name received: hauptmenue-button
+2025-03-25 10:51:23,207 - INFO - Button name received: einstellungen_button
+2025-03-25 10:51:25,166 - INFO - Button name received: mod-auswahl_button
+2025-03-25 10:51:27,168 - INFO - Button name received: alertstop_button
+2025-03-25 10:51:27,399 - WARNING - 'alertstop_button' not found 130
+2025-03-25 10:51:35,843 - INFO - Button name received: hauptmenue-button
+2025-03-25 10:54:37,542 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 10:57:33,882 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:01:48,500 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:01:52,587 - INFO - Button name received: servername_empty
+2025-03-25 11:12:55,852 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:13:02,087 - WARNING - Button not found using image: images/0ad/neues_spiel_hosten_button.png
+2025-03-25 11:13:05,560 - WARNING - 'neues_spiel_hosten_button' not found 130
+2025-03-25 11:13:21,568 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:13:27,792 - WARNING - Button not found using image: images/0ad/neues_spiel_hosten_button.png
+2025-03-25 11:13:31,271 - WARNING - 'neues_spiel_hosten_button' not found 130
+2025-03-25 11:13:37,555 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:13:43,775 - WARNING - Button not found using image: images/0ad/neues_spiel_hosten_button.png
+2025-03-25 11:13:47,251 - WARNING - 'neues_spiel_hosten_button' not found 130
+2025-03-25 11:13:50,865 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:13:59,514 - INFO - Button name received: alertstop_button
+2025-03-25 11:13:59,748 - WARNING - 'alertstop_button' not found 130
+2025-03-25 11:14:10,863 - INFO - Button name received: einstellungen_button
+2025-03-25 11:14:16,673 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 11:14:19,827 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 11:14:24,957 - INFO - Button name received: servername_empty
+2025-03-25 11:14:25,375 - INFO - Button name received: servername_empty
+2025-03-25 11:14:27,703 - INFO - Button name received: servername_empty
+2025-03-25 11:14:27,900 - INFO - Button name received: servername_empty
+2025-03-25 11:14:30,723 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:14:31,121 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:14:31,950 - INFO - Button name received: servername_empty
+2025-03-25 11:14:32,127 - INFO - Button name received: servername_empty
+2025-03-25 11:14:33,523 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:14:33,658 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:14:33,740 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:14:34,123 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:14:35,810 - INFO - Button name received: servername_empty
+2025-03-25 11:14:36,530 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:14:36,666 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:14:37,741 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:14:37,888 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:14:40,741 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:14:40,885 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:14:41,574 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:14:44,569 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:15:08,343 - INFO - Button name received: servername_empty
+2025-03-25 11:15:08,490 - INFO - Button name received: servername_empty
+2025-03-25 11:15:13,311 - INFO - Button name received: servername_empty
+2025-03-25 11:15:14,119 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:15:14,253 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:15:14,377 - INFO - Button name received: servername_empty
+2025-03-25 11:15:17,126 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:15:17,256 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:15:19,079 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:15:20,129 - WARNING - Button not found using image: images/0ad/servername_empty.png
+2025-03-25 11:15:22,071 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:15:23,126 - WARNING - 'servername_empty' not found 130
+2025-03-25 11:15:28,546 - INFO - Button name received: mod-auswahl_button
+2025-03-25 11:15:28,874 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:15:34,351 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-25 11:15:37,408 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-25 11:17:55,921 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:17:59,776 - INFO - Button name received: einstellungen_button
+2025-03-25 11:17:59,833 - INFO - Button name received: einstellungen_button
+2025-03-25 11:17:59,880 - INFO - Button name received: einstellungen_button
+2025-03-25 11:17:59,934 - INFO - Button name received: einstellungen_button
+2025-03-25 11:18:05,679 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 11:18:05,747 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 11:18:05,786 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 11:18:05,823 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 11:18:08,862 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 11:18:08,924 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 11:18:08,967 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 11:18:08,988 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 11:20:52,585 - INFO - Button name received: alertstop_button
+2025-03-25 11:20:52,813 - WARNING - 'alertstop_button' not found 130
+2025-03-25 11:20:56,679 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:47:30,798 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:47:44,872 - INFO - Button name received: hauptmenue-button
+2025-03-25 11:47:49,172 - INFO - Button name received: einstellungen_button
+2025-03-25 11:47:52,791 - INFO - Button name received: mod-auswahl_button
+2025-03-25 11:47:55,629 - INFO - Button name received: alertstop_button
+2025-03-25 11:47:55,861 - WARNING - 'alertstop_button' not found 130
+2025-03-25 11:48:02,192 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:48:10,931 - INFO - Button name received: alertstop_button
+2025-03-25 11:48:11,155 - WARNING - 'alertstop_button' not found 130
+2025-03-25 11:49:25,818 - INFO - Button name received: hauptmenue-button
+2025-03-25 11:51:16,792 - INFO - Button name received: einstellungen_button
+2025-03-25 11:51:19,016 - INFO - Button name received: alertstop_button
+2025-03-25 11:51:19,251 - WARNING - 'alertstop_button' not found 130
+2025-03-25 11:51:34,218 - INFO - Button name received: mod-auswahl_button
+2025-03-25 11:51:40,011 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-25 11:51:43,067 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-25 11:54:35,673 - INFO - Button name received: einstellungen_button
+2025-03-25 11:54:40,776 - INFO - Button name received: alertstop_button
+2025-03-25 11:54:41,004 - WARNING - 'alertstop_button' not found 130
+2025-03-25 11:54:46,112 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:56:30,165 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 11:59:41,025 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:07:47,606 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:19:32,313 - INFO - Button name received: alert_button
+2025-03-25 12:19:35,631 - INFO - Button name received: alert_button
+2025-03-25 12:19:37,721 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:19:40,485 - WARNING - 'alert_button' not found 130
+2025-03-25 12:19:41,051 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:19:43,806 - WARNING - 'alert_button' not found 130
+2025-03-25 12:20:24,575 - INFO - Button name received: alert_button
+2025-03-25 12:20:30,253 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:20:33,050 - WARNING - 'alert_button' not found 130
+2025-03-25 12:20:38,168 - INFO - Button name received: alert_button
+2025-03-25 12:20:39,992 - INFO - Button name received: alertstop_button
+2025-03-25 12:20:40,234 - WARNING - 'alertstop_button' not found 130
+2025-03-25 12:20:43,618 - INFO - Button name received: einstellungen_button
+2025-03-25 12:20:43,677 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:20:46,469 - WARNING - 'alert_button' not found 130
+2025-03-25 12:20:51,747 - INFO - Button name received: einstellungen_button
+2025-03-25 12:20:53,960 - INFO - Button name received: mod-auswahl_button
+2025-03-25 12:20:57,280 - INFO - Button name received: alertstop_button
+2025-03-25 12:20:57,522 - WARNING - 'alertstop_button' not found 130
+2025-03-25 12:20:57,629 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 12:21:00,822 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 12:21:07,005 - INFO - Button name received: alertstop_button
+2025-03-25 12:21:07,248 - WARNING - 'alertstop_button' not found 130
+2025-03-25 12:21:11,022 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:21:16,332 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:21:17,324 - WARNING - Button not found using image: images/0ad/neues_spiel_hosten_button.png
+2025-03-25 12:21:20,799 - WARNING - 'neues_spiel_hosten_button' not found 130
+2025-03-25 12:24:24,752 - INFO - Button name received: alert_button
+2025-03-25 12:24:27,613 - INFO - Button name received: alert_button
+2025-03-25 12:24:28,186 - INFO - Button name received: alert_button
+2025-03-25 12:24:28,526 - INFO - Button name received: alert_button
+2025-03-25 12:24:28,862 - INFO - Button name received: alert_button
+2025-03-25 12:24:29,151 - INFO - Button name received: alert_button
+2025-03-25 12:24:29,494 - INFO - Button name received: alert_button
+2025-03-25 12:24:29,629 - INFO - Button name received: alert_button
+2025-03-25 12:24:30,171 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:24:30,274 - INFO - Button name received: einstellungen_button
+2025-03-25 12:24:32,999 - WARNING - 'alert_button' not found 130
+2025-03-25 12:24:33,046 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:24:33,623 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:24:33,941 - INFO - Button name received: alert_button
+2025-03-25 12:24:33,979 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:24:34,327 - INFO - Button name received: alertstop_button
+2025-03-25 12:24:34,346 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:24:34,551 - WARNING - 'alertstop_button' not found 130
+2025-03-25 12:24:34,623 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:24:35,025 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:24:35,145 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:24:35,836 - WARNING - 'alert_button' not found 130
+2025-03-25 12:24:36,411 - WARNING - 'alert_button' not found 130
+2025-03-25 12:24:36,769 - WARNING - 'alert_button' not found 130
+2025-03-25 12:24:37,136 - WARNING - 'alert_button' not found 130
+2025-03-25 12:24:37,412 - WARNING - 'alert_button' not found 130
+2025-03-25 12:24:37,836 - WARNING - 'alert_button' not found 130
+2025-03-25 12:24:37,953 - WARNING - 'alert_button' not found 130
+2025-03-25 12:24:39,415 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 12:24:40,887 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:24:42,167 - WARNING - 'alert_button' not found 130
+2025-03-25 12:29:00,475 - INFO - Button name received: einstellungen_button
+2025-03-25 12:29:04,004 - INFO - Button name received: alertstop_button
+2025-03-25 12:29:04,248 - WARNING - 'alertstop_button' not found 130
+2025-03-25 12:29:07,840 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:35:17,952 - INFO - Button name received: einstellungen_button
+2025-03-25 12:35:20,565 - INFO - Button name received: alertstop_button
+2025-03-25 12:35:20,810 - WARNING - 'alertstop_button' not found 130
+2025-03-25 12:36:24,667 - INFO - Button name received: einstellungen_button
+2025-03-25 12:36:30,507 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 12:36:32,388 - INFO - Button name received: einstellungen_button
+2025-03-25 12:36:33,668 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 12:36:59,991 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:37:03,977 - ERROR - Unexpected error 'QT_PLUGIN_PATH'
+2025-03-25 12:39:33,902 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:39:37,646 - ERROR - Unexpected error 'QT_PLUGIN_PATH'
+2025-03-25 12:47:36,936 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:48:41,600 - INFO - Button name received: einstellungen_button
+2025-03-25 12:48:43,273 - INFO - Button name received: alertstop_button
+2025-03-25 12:48:43,524 - WARNING - 'alertstop_button' not found 130
+2025-03-25 12:48:49,611 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:52:11,369 - INFO - Button name received: einstellungen_button
+2025-03-25 12:52:14,757 - INFO - Button name received: alertstop_button
+2025-03-25 12:52:14,995 - WARNING - 'alertstop_button' not found 130
+2025-03-25 12:52:17,728 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:52:22,368 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 12:52:23,957 - WARNING - Button not found using image: images/0ad/neues_spiel_hosten_button.png
+2025-03-25 12:52:27,444 - WARNING - 'neues_spiel_hosten_button' not found 130
+2025-03-25 12:53:08,222 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 13:11:00,658 - INFO - Button name received: hauptmenue-button
+2025-03-25 13:11:03,474 - INFO - Button name received: einstellungen_button
+2025-03-25 13:11:47,369 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 13:11:53,124 - INFO - Button name received: alertstop_button
+2025-03-25 13:11:53,386 - WARNING - 'alertstop_button' not found 130
+2025-03-25 13:13:05,325 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 13:13:36,202 - INFO - Button name received: alertstop_button
+2025-03-25 13:13:36,446 - WARNING - 'alertstop_button' not found 130
+2025-03-25 13:18:54,401 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 13:19:07,611 - INFO - Button name received: alertstop_button
+2025-03-25 13:19:07,849 - WARNING - 'alertstop_button' not found 130
+2025-03-25 13:19:10,475 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 13:33:54,187 - INFO - Button name received: alertstop_button
+2025-03-25 13:33:54,427 - WARNING - 'alertstop_button' not found 130
+2025-03-25 13:33:54,970 - INFO - Button name received: alertstop_button
+2025-03-25 13:33:55,213 - WARNING - 'alertstop_button' not found 130
+2025-03-25 13:33:56,058 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 13:34:08,049 - INFO - Button name received: alertstop_button
+2025-03-25 13:34:08,283 - WARNING - 'alertstop_button' not found 130
+2025-03-25 13:34:08,731 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 13:34:17,733 - INFO - Button name received: alertstop_button
+2025-03-25 13:34:17,974 - WARNING - 'alertstop_button' not found 130
+2025-03-25 13:34:35,676 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 13:36:55,897 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 13:48:21,709 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 14:00:25,921 - INFO - Button name received: einstellungen_button
+2025-03-25 14:29:22,187 - INFO - Button name received: einstellungen_button
+2025-03-25 14:29:26,625 - INFO - Button name received: alertstop_button
+2025-03-25 14:29:26,868 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:29:28,568 - INFO - Button name received: einstellungen_button
+2025-03-25 14:29:30,863 - INFO - Button name received: alertstop_button
+2025-03-25 14:29:31,092 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:29:34,378 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 14:29:37,539 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 14:33:37,615 - INFO - Button name received: mehrspieler_button
+2025-03-25 14:34:07,072 - INFO - Button name received: alertstop_button
+2025-03-25 14:34:07,301 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:34:09,462 - INFO - Button name received: alertstop_button
+2025-03-25 14:34:09,695 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:34:51,976 - INFO - Button name received: einstellungen_button
+2025-03-25 14:34:52,214 - INFO - Button name received: einstellungen_button
+2025-03-25 14:41:08,637 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 14:41:11,802 - INFO - Button name received: alertstop_button
+2025-03-25 14:41:12,038 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:41:12,143 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 14:41:14,253 - INFO - Button name received: alertstop_button
+2025-03-25 14:41:14,478 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:41:15,109 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 14:41:20,226 - INFO - Button name received: alertstop_button
+2025-03-25 14:41:20,447 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:47:42,920 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 14:47:58,545 - INFO - Button name received: alertstop_button
+2025-03-25 14:47:58,768 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:47:59,354 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 14:48:10,344 - INFO - Button name received: alertstop_button
+2025-03-25 14:48:10,571 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:50:15,727 - INFO - Button name received: hauptmenue-button
+2025-03-25 14:50:19,121 - INFO - Button name received: mod-auswahl_button
+2025-03-25 14:50:24,924 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-25 14:50:27,979 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-25 14:50:37,407 - INFO - Button name received: einstellungen_button
+2025-03-25 14:50:42,301 - INFO - Button name received: mod-auswahl_button
+2025-03-25 14:50:44,991 - INFO - Button name received: alertstop_button
+2025-03-25 14:50:45,217 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:50:47,042 - INFO - Button name received: einstellungen_button
+2025-03-25 14:50:52,189 - INFO - Button name received: mod-auswahl_button
+2025-03-25 14:50:55,283 - INFO - Button name received: alertstop_button
+2025-03-25 14:50:55,507 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:50:56,495 - INFO - Button name received: einstellungen_button
+2025-03-25 14:50:57,508 - INFO - Button name received: mod-auswahl_button
+2025-03-25 14:51:03,163 - INFO - Button name received: alertstop_button
+2025-03-25 14:51:03,315 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-25 14:51:03,395 - WARNING - 'alertstop_button' not found 130
+2025-03-25 14:51:06,386 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-25 14:51:14,194 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 14:52:44,412 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 15:31:21,159 - INFO - Button name received: alertstop_button
+2025-03-25 15:31:21,406 - WARNING - 'alertstop_button' not found 130
+2025-03-25 15:31:21,488 - INFO - Button name received: alertstop_button
+2025-03-25 15:31:21,726 - WARNING - 'alertstop_button' not found 130
+2025-03-25 15:41:06,818 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 15:41:19,661 - INFO - Button name received: alertstop_button
+2025-03-25 15:41:19,893 - WARNING - 'alertstop_button' not found 130
+2025-03-25 15:41:59,726 - INFO - Button name received: alertstop_button
+2025-03-25 15:41:59,968 - WARNING - 'alertstop_button' not found 130
+2025-03-25 15:42:04,191 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 15:42:53,313 - INFO - Button name received: hauptmenue-button
+2025-03-25 15:42:56,504 - INFO - Button name received: einstellungen_button
+2025-03-25 15:43:38,137 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 15:54:55,359 - INFO - Button name received: alertstop_button
+2025-03-25 15:54:55,598 - WARNING - 'alertstop_button' not found 130
+2025-03-25 15:54:56,103 - INFO - Button name received: alertstop_button
+2025-03-25 15:54:56,338 - WARNING - 'alertstop_button' not found 130
+2025-03-25 15:54:57,681 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 16:16:41,639 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 16:25:01,540 - INFO - Button name received: alert_button
+2025-03-25 16:43:22,155 - INFO - Button name received: hauptmenue-button
+2025-03-25 16:46:20,711 - INFO - Button name received: hauptmenue-button
+2025-03-25 16:46:23,577 - INFO - Button name received: einstellungen_button
+2025-03-25 16:59:25,347 - INFO - Button name received: alertstop_button
+2025-03-25 17:10:11,779 - INFO - Button name received: alertstop_button
+2025-03-25 17:10:12,012 - WARNING - 'alertstop_button' not found 130
+2025-03-25 17:45:38,843 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 17:55:10,112 - INFO - Button name received: hauptmenue-button
+2025-03-25 17:55:23,255 - INFO - Button name received: einstellungen_button
+2025-03-25 17:55:47,710 - INFO - Button name received: mod-auswahl_button
+2025-03-25 17:55:56,334 - INFO - Button name received: einstellungen_button
+2025-03-25 17:56:02,144 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 17:56:05,301 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 18:02:19,247 - INFO - Button name received: alertstop_button
+2025-03-25 18:02:19,482 - WARNING - 'alertstop_button' not found 130
+2025-03-25 18:08:13,705 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-25 18:19:17,027 - INFO - Button name received: alert_button
+2025-03-25 18:19:54,264 - INFO - Button name received: alert_button
+2025-03-25 19:12:40,329 - INFO - Button name received: alertstop_button
+2025-03-25 19:12:40,554 - WARNING - 'alertstop_button' not found 130
+2025-03-25 19:54:32,526 - INFO - Button name received: alertstop_button
+2025-03-25 19:54:32,752 - WARNING - 'alertstop_button' not found 130
+2025-03-25 20:28:57,341 - INFO - Button name received: alertstop_button
+2025-03-25 20:28:57,574 - WARNING - 'alertstop_button' not found 130
+2025-03-25 20:31:33,085 - INFO - Button name received: alertstop_button
+2025-03-25 20:31:33,319 - WARNING - 'alertstop_button' not found 130
+2025-03-25 20:31:36,301 - INFO - Button name received: alertstop_button
+2025-03-25 20:31:36,533 - WARNING - 'alertstop_button' not found 130
+2025-03-25 20:35:03,597 - INFO - Button name received: alertstop_button
+2025-03-25 20:35:03,826 - WARNING - 'alertstop_button' not found 130
+2025-03-25 20:40:22,988 - INFO - Button name received: alertstop_button
+2025-03-25 20:40:23,232 - WARNING - 'alertstop_button' not found 130
+2025-03-25 20:40:46,359 - INFO - Button name received: alertstop_button
+2025-03-25 20:40:46,597 - WARNING - 'alertstop_button' not found 130
+2025-03-25 20:47:50,365 - INFO - Button name received: einstellungen_button
+2025-03-25 20:47:56,195 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-25 20:47:59,354 - WARNING - 'einstellungen_button' not found 130
+2025-03-25 20:48:42,430 - INFO - Button name received: einstellungen_button
+2025-03-25 20:53:24,183 - INFO - Button name received: alertstop_button
+2025-03-25 20:53:24,432 - WARNING - 'alertstop_button' not found 130
+2025-03-25 20:53:24,630 - INFO - Button name received: einstellungen_button
+2025-03-25 20:54:10,698 - INFO - Button name received: einstellungen_button
+2025-03-25 21:11:20,147 - INFO - Button name received: alertstop_button
+2025-03-25 21:11:20,397 - WARNING - 'alertstop_button' not found 130
+2025-03-25 21:12:11,359 - INFO - Button name received: einstellungen_button
+2025-03-25 21:38:54,682 - INFO - Button name received: alert_button
+2025-03-25 21:52:48,120 - INFO - Button name received: alert_button
+2025-03-25 21:55:04,248 - INFO - Button name received: alertstop_button
+2025-03-25 22:16:51,957 - INFO - Button name received: alert_button
+2025-03-25 23:42:03,098 - INFO - Button name received: alert_button
+2025-03-25 23:42:51,123 - INFO - Button name received: alertstop_button
+2025-03-25 23:45:20,261 - INFO - Button name received: alert_button
+2025-03-25 23:46:04,824 - INFO - Button name received: alertstop_button
+2025-03-25 23:47:57,483 - INFO - Button name received: alertstop_button
+2025-03-25 23:48:27,397 - INFO - Button name received: alertstop_button
+2025-03-25 23:48:27,623 - INFO - Button name received: alert_button
+2025-03-25 23:48:28,103 - INFO - Button name received: alert_button
+2025-03-25 23:48:28,561 - INFO - Button name received: alert_button
+2025-03-25 23:48:29,052 - INFO - Button name received: alert_button
+2025-03-25 23:48:34,004 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 23:48:34,495 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-25 23:48:36,793 - WARNING - 'alert_button' not found 130
+2025-03-25 23:48:37,271 - WARNING - 'alert_button' not found 130
+2025-03-25 23:48:45,169 - INFO - Button name received: alert_button
+2025-03-25 23:49:38,322 - INFO - Button name received: alertstop_button
+2025-03-25 23:50:10,253 - INFO - Button name received: alert_button
+2025-03-25 23:50:15,544 - INFO - Button name received: alertstop_button
+2025-03-25 23:51:19,271 - INFO - Button name received: alert_button
+2025-03-25 23:51:53,780 - INFO - Button name received: alertstop_button
+2025-03-25 23:52:06,968 - INFO - Button name received: alert_button
+2025-03-25 23:52:19,000 - INFO - Button name received: alertstop_button
+2025-03-25 23:54:43,011 - INFO - Button name received: alert_button
+2025-03-25 23:55:35,074 - INFO - Button name received: alert_button
+2025-03-25 23:56:01,155 - INFO - Button name received: alertstop_button
+2025-03-25 23:56:26,298 - INFO - Button name received: alert_button
+2025-03-25 23:56:56,249 - INFO - Button name received: alertstop_button
+2025-03-25 23:57:39,261 - INFO - Button name received: alertstop_button
+2025-03-25 23:57:55,993 - INFO - Button name received: alertstop_button
+2025-03-25 23:58:37,998 - INFO - Button name received: alert_button
+2025-03-25 23:59:04,371 - INFO - Button name received: alertstop_button
+2025-03-26 00:00:18,742 - INFO - Button name received: alertstop_button
+2025-03-26 00:00:21,967 - INFO - Button name received: alert_button
+2025-03-26 00:00:24,802 - INFO - Button name received: alert_button
+2025-03-26 00:00:27,390 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-26 00:00:30,175 - WARNING - 'alert_button' not found 130
+2025-03-26 00:00:30,225 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-03-26 00:00:32,978 - WARNING - 'alert_button' not found 130
+2025-03-26 00:00:38,448 - INFO - Button name received: alertstop_button
+2025-03-26 00:02:49,929 - INFO - Button name received: alert_button
+2025-03-26 00:03:11,407 - INFO - Button name received: alert_button
+2025-03-26 08:00:42,375 - INFO - Button name received: mod-auswahl_button
+2025-03-26 08:00:44,322 - INFO - Button name received: mod-auswahl_button
+2025-03-26 08:00:47,869 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 08:00:48,231 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-26 08:00:50,116 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-26 08:00:51,324 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-26 08:00:53,193 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-26 08:01:01,639 - INFO - Button name received: mod-auswahl_button
+2025-03-26 08:01:07,437 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-26 08:01:10,517 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-26 08:02:50,287 - INFO - Button name received: alertstop_button
+2025-03-26 08:02:50,521 - WARNING - 'alertstop_button' not found 130
+2025-03-26 08:06:34,754 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 08:11:13,379 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 08:12:38,843 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 08:12:50,546 - INFO - Button name received: alertstop_button
+2025-03-26 08:12:50,783 - WARNING - 'alertstop_button' not found 130
+2025-03-26 08:14:11,753 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 08:14:28,076 - INFO - Button name received: alertstop_button
+2025-03-26 08:14:28,297 - WARNING - 'alertstop_button' not found 130
+2025-03-26 08:21:02,595 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 08:25:31,742 - INFO - Button name received: alertstop_button
+2025-03-26 08:25:31,974 - WARNING - 'alertstop_button' not found 130
+2025-03-26 08:25:36,895 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 08:44:39,221 - INFO - Button name received: alertstop_button
+2025-03-26 08:46:25,618 - INFO - Button name received: mod-auswahl_button
+2025-03-26 08:46:31,413 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-26 08:46:33,589 - INFO - Button name received: mod-auswahl_button
+2025-03-26 08:46:34,490 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-26 08:46:39,393 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-26 08:46:42,453 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-26 08:50:16,017 - INFO - Button name received: alertstop_button
+2025-03-26 08:50:16,263 - INFO - Button name received: alertstop_button
+2025-03-26 08:50:16,267 - WARNING - 'alertstop_button' not found 130
+2025-03-26 08:50:16,499 - WARNING - 'alertstop_button' not found 130
+2025-03-26 08:53:06,032 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 08:54:33,478 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 08:54:39,699 - WARNING - Button not found using image: images/0ad/neues_spiel_hosten_button.png
+2025-03-26 08:54:42,521 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 08:54:43,188 - WARNING - 'neues_spiel_hosten_button' not found 130
+2025-03-26 09:36:20,307 - INFO - Button name received: alertstop_button
+2025-03-26 10:08:44,661 - INFO - Button name received: alertstop_button
+2025-03-26 10:27:31,189 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 10:28:17,637 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 10:36:11,962 - INFO - Button name received: einstellungen_button
+2025-03-26 10:36:15,125 - INFO - Button name received: alertstop_button
+2025-03-26 10:36:15,372 - WARNING - 'alertstop_button' not found 130
+2025-03-26 10:36:20,249 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-26 10:36:23,305 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-26 10:36:49,904 - INFO - Button name received: einstellungen_button
+2025-03-26 10:36:55,726 - WARNING - Button not found using image: images/0ad/einstellungen_button.png
+2025-03-26 10:36:58,882 - WARNING - 'einstellungen_button' not found 130
+2025-03-26 10:37:07,465 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 10:37:13,710 - WARNING - Button not found using image: images/0ad/neues_spiel_hosten_button.png
+2025-03-26 10:37:17,190 - WARNING - 'neues_spiel_hosten_button' not found 130
+2025-03-26 10:40:59,346 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 10:41:05,589 - WARNING - Button not found using image: images/0ad/neues_spiel_hosten_button.png
+2025-03-26 10:41:05,944 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 10:41:09,069 - WARNING - 'neues_spiel_hosten_button' not found 130
+2025-03-26 10:42:27,214 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 10:43:16,785 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 10:44:57,425 - INFO - Button name received: alertstop_button
+2025-03-26 10:44:57,663 - WARNING - 'alertstop_button' not found 130
+2025-03-26 10:45:03,198 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 10:46:58,281 - INFO - Button name received: alertstop_button
+2025-03-26 10:46:58,517 - WARNING - 'alertstop_button' not found 130
+2025-03-26 10:47:02,530 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 10:48:39,944 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 10:59:30,927 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 11:03:19,375 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 11:03:32,990 - INFO - Button name received: alertstop_button
+2025-03-26 11:03:33,229 - WARNING - 'alertstop_button' not found 130
+2025-03-26 11:03:47,494 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 11:07:09,996 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 11:09:16,456 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 11:11:15,938 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 11:29:21,476 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 11:34:17,932 - INFO - Button name received: einstellungen_button
+2025-03-26 11:34:20,680 - INFO - Button name received: alertstop_button
+2025-03-26 11:34:20,921 - WARNING - 'alertstop_button' not found 130
+2025-03-26 11:34:26,365 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-26 11:34:29,471 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-26 11:34:39,759 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 13:26:15,180 - INFO - Button name received: alertstop_button
+2025-03-26 13:26:15,414 - WARNING - 'alertstop_button' not found 130
+2025-03-26 13:26:16,013 - INFO - Button name received: alertstop_button
+2025-03-26 13:26:16,232 - INFO - Button name received: alertstop_button
+2025-03-26 13:26:16,270 - WARNING - 'alertstop_button' not found 130
+2025-03-26 13:26:16,470 - WARNING - 'alertstop_button' not found 130
+2025-03-26 14:27:49,763 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 14:52:23,456 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 15:11:23,107 - INFO - Button name received: alert_button
+2025-03-26 15:12:05,930 - INFO - Button name received: alertstop_button
+2025-03-26 15:57:34,444 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 16:11:11,223 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 16:14:40,251 - INFO - Button name received: alertstop_button
+2025-03-26 16:14:40,479 - WARNING - 'alertstop_button' not found 130
+2025-03-26 16:14:41,363 - INFO - Button name received: alertstop_button
+2025-03-26 16:14:41,596 - WARNING - 'alertstop_button' not found 130
+2025-03-26 16:14:42,769 - INFO - Button name received: mod-auswahl_button
+2025-03-26 16:14:45,439 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-26 16:14:48,586 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-03-26 16:14:51,642 - WARNING - 'mod-auswahl_button' not found 130
+2025-03-26 16:43:36,325 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-27 16:55:20,974 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-27 16:55:30,040 - WARNING - Button not found using image: images/0ad/fortfahren_button.png
+2025-03-27 16:55:33,123 - WARNING - 'fortfahren_button' not found 130
+2025-03-27 18:42:02,796 - INFO - Button name received: alert_button
+2025-03-27 18:42:38,420 - INFO - Button name received: alert_button
+2025-03-27 18:44:14,309 - INFO - Button name received: alertstop_button
+2025-03-27 20:26:13,590 - INFO - Button name received: alertstop_button
+2025-03-27 20:26:13,840 - WARNING - 'alertstop_button' not found 130
+2025-03-27 20:28:51,435 - INFO - Button name received: alertstop_button
+2025-03-27 20:28:51,663 - WARNING - 'alertstop_button' not found 130
+2025-03-28 22:02:07,494 - WARNING - Button not found using image: images/0ad/mehrspieler_lobby_button.png
+2025-03-28 22:02:10,754 - WARNING - 'mehrspieler_lobby_button' not found 130
+2025-03-28 22:35:00,883 - INFO - Button name received: alertstop_button
+2025-03-29 00:03:02,743 - INFO - Button name received: alertstop_button
+2025-03-29 00:03:02,983 - WARNING - 'alertstop_button' not found 130
+2025-03-29 00:04:28,767 - INFO - Button name received: alertstop_button
+2025-03-29 00:04:29,005 - WARNING - 'alertstop_button' not found 130
+2025-03-29 13:00:57,505 - INFO - Button name received: lobby_borg_red
+2025-03-29 13:01:03,085 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-03-29 13:01:05,916 - WARNING - 'lobby_borg_red' not found 130
+2025-03-29 13:41:08,504 - INFO - Button name received: lobby_borg_red
+2025-03-29 13:41:14,090 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-03-29 13:41:17,008 - WARNING - 'lobby_borg_red' not found 130
+2025-03-29 15:12:50,964 - INFO - Button name received: neues_spiel_hosten_button
+2025-03-29 19:02:04,105 - INFO - Button name received: alertstop_button
+2025-03-29 19:02:04,343 - WARNING - 'alertstop_button' not found 130
+2025-03-29 20:01:54,970 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-03-29 20:01:57,831 - WARNING - 'lobby_borg_red' not found 130
+2025-03-29 20:04:35,450 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-03-30 20:00:15,329 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-03-30 21:34:28,326 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-03-30 21:34:33,985 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-03-30 21:34:36,850 - WARNING - 'lobby_borg_red' not found 130
+2025-03-30 21:59:00,386 - INFO - Button name received: alertstop_button
+2025-03-30 21:59:00,654 - WARNING - 'alertstop_button' not found 130
+2025-03-30 21:59:09,271 - INFO - Button name received: alertstop_button
+2025-03-30 21:59:09,523 - WARNING - 'alertstop_button' not found 130
+2025-03-30 22:07:10,486 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-03-30 22:07:16,118 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-03-30 22:07:18,959 - WARNING - 'lobby_borg_red' not found 130
+2025-03-30 22:18:20,217 - INFO - Button name received: alertstop_button
+2025-03-30 22:18:20,438 - WARNING - 'alertstop_button' not found 130
+2025-03-31 22:52:29,159 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-03-31 23:50:08,963 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-01 19:09:39,389 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-01 19:09:45,038 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-01 19:09:47,873 - WARNING - 'lobby_borg_red' not found 130
+2025-04-01 20:16:41,497 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-01 20:16:47,134 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-01 20:16:49,997 - WARNING - 'lobby_borg_red' not found 130
+2025-04-01 20:22:07,740 - INFO - Button name received: neues_spiel_hosten_button
+2025-04-01 20:30:29,687 - INFO - Button name received: neues_spiel_hosten_button
+2025-04-01 20:30:38,427 - WARNING - Button not found using image: images/0ad/fortfahren_button.png
+2025-04-01 20:30:41,504 - WARNING - 'fortfahren_button' not found 130
+2025-04-01 20:36:19,349 - INFO - Button name received: alertstop_button
+2025-04-01 20:36:20,370 - INFO - Button name received: alert_button
+2025-04-01 20:36:22,506 - INFO - Button name received: alert_button
+2025-04-01 20:36:25,790 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-04-01 20:36:27,925 - WARNING - Button not found using image: images/0ad/alert_button.png
+2025-04-01 20:36:28,569 - WARNING - 'alert_button' not found 130
+2025-04-01 20:36:30,707 - WARNING - 'alert_button' not found 130
+2025-04-01 20:37:28,455 - INFO - Button name received: alert_button
+2025-04-01 20:46:22,842 - INFO - Button name received: alertstop_button
+2025-04-01 20:46:23,076 - WARNING - 'alertstop_button' not found 130
+2025-04-01 21:00:58,785 - INFO - Button name received: alert_button
+2025-04-01 21:01:27,717 - INFO - Button name received: alert_button
+2025-04-01 21:02:06,353 - INFO - Button name received: alertstop_button
+2025-04-01 21:21:47,752 - INFO - Button name received: alertstop_button
+2025-04-01 21:23:44,398 - INFO - Button name received: alertstop_button
+2025-04-01 21:23:44,615 - WARNING - 'alertstop_button' not found 130
+2025-04-01 22:18:41,772 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-01 23:49:18,597 - INFO - Button name received: alert_button
+2025-04-02 01:08:24,417 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-02 01:08:30,066 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-02 01:08:32,924 - WARNING - 'lobby_borg_red' not found 130
+2025-04-02 02:37:53,903 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-02 02:37:59,566 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-02 02:38:02,420 - WARNING - 'lobby_borg_red' not found 130
+2025-04-02 18:26:08,989 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-02 18:38:34,953 - INFO - Button name received: alertstop_button
+2025-04-02 18:38:37,387 - INFO - Button name received: alertstop_button
+2025-04-02 18:43:46,233 - INFO - Button name received: alertstop_button
+2025-04-02 18:43:46,480 - WARNING - 'alertstop_button' not found 130
+2025-04-02 19:21:56,974 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-02 19:22:02,652 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-02 19:22:05,516 - WARNING - 'lobby_borg_red' not found 130
+2025-04-02 21:06:34,951 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-02 21:06:40,623 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-02 21:06:43,475 - WARNING - 'lobby_borg_red' not found 130
+2025-04-07 17:31:42,035 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-07 20:13:54,944 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-07 20:37:19,587 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-07 20:38:02,523 - INFO - Button name received: alertstop_button
+2025-04-07 20:38:02,787 - WARNING - 'alertstop_button' not found 130
+2025-04-07 20:49:23,620 - INFO - Button name received: alert_button
+2025-04-07 20:49:49,219 - INFO - Button name received: alertstop_button
+2025-04-07 20:54:03,838 - INFO - Button name received: alert_button
+2025-04-07 21:22:25,637 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-07 21:22:31,322 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-07 21:22:34,185 - WARNING - 'lobby_borg_red' not found 130
+2025-04-07 22:17:18,864 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-07 23:08:38,731 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-08 17:17:35,541 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-08 18:47:10,859 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-08 20:47:45,003 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-08 20:47:50,668 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-08 20:47:53,527 - WARNING - 'lobby_borg_red' not found 130
+2025-04-08 22:02:31,804 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-08 22:10:21,448 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-08 22:44:19,298 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-08 22:44:24,937 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-08 22:44:27,774 - WARNING - 'lobby_borg_red' not found 130
+2025-04-08 22:52:11,667 - INFO - Button name received: alertstop_button
+2025-04-08 23:04:57,580 - INFO - Button name received: alertstop_button
+2025-04-08 23:07:19,532 - INFO - Button name received: alertstop_button
+2025-04-08 23:09:20,926 - INFO - Button name received: alertstop_button
+2025-04-08 23:12:09,216 - INFO - Button name received: alertstop_button
+2025-04-08 23:15:49,421 - INFO - Button name received: alertstop_button
+2025-04-08 23:16:22,221 - INFO - Button name received: alertstop_button
+2025-04-10 14:14:28,496 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-10 14:14:34,181 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-10 14:14:37,035 - WARNING - 'lobby_borg_red' not found 130
+2025-04-10 14:17:55,814 - INFO - Button name received: alertstop_button
+2025-04-10 14:17:56,070 - WARNING - 'alertstop_button' not found 130
+2025-04-10 14:20:26,395 - INFO - Button name received: alertstop_button
+2025-04-10 14:20:26,623 - WARNING - 'alertstop_button' not found 130
+2025-04-13 05:14:08,965 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-13 05:14:14,615 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-13 05:14:17,476 - WARNING - 'lobby_borg_red' not found 130
+2025-04-13 05:35:15,721 - INFO - Button name received: alert_button
+2025-04-13 05:35:57,414 - INFO - Button name received: alertstop_button
+2025-04-13 06:28:22,348 - INFO - Button name received: alertstop_button
+2025-04-13 06:28:22,581 - WARNING - 'alertstop_button' not found 130
+2025-04-13 06:28:26,232 - INFO - Button name received: alertstop_button
+2025-04-13 06:28:26,464 - WARNING - 'alertstop_button' not found 130
+2025-04-13 19:42:00,899 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-13 20:08:58,810 - INFO - Button name received: alertstop_button
+2025-04-13 20:08:59,066 - WARNING - 'alertstop_button' not found 130
+2025-04-13 20:15:05,785 - INFO - Button name received: alertstop_button
+2025-04-13 20:15:06,016 - WARNING - 'alertstop_button' not found 130
+2025-04-13 20:25:41,486 - INFO - Button name received: alertstop_button
+2025-04-13 20:25:41,724 - WARNING - 'alertstop_button' not found 130
+2025-04-14 11:34:25,524 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-14 11:34:31,186 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-14 11:34:34,021 - WARNING - 'lobby_borg_red' not found 130
+2025-04-14 11:40:28,281 - INFO - Button name received: mod-auswahl_button
+2025-04-14 11:40:34,055 - INFO - Button name received: neues_spiel_hosten_button
+2025-04-14 11:40:34,105 - WARNING - Button not found using image: images/0ad/mod-auswahl_button.png
+2025-04-14 11:40:36,012 - INFO - Button name received: alertstop_button
+2025-04-14 11:40:36,242 - WARNING - 'alertstop_button' not found 130
+2025-04-14 11:40:36,495 - INFO - Button name received: alertstop_button
+2025-04-14 11:40:36,728 - WARNING - 'alertstop_button' not found 130
+2025-04-14 11:40:37,159 - WARNING - 'mod-auswahl_button' not found 130
+2025-04-14 11:40:42,837 - WARNING - Button not found using image: images/0ad/fortfahren_button.png
+2025-04-14 11:40:45,919 - WARNING - 'fortfahren_button' not found 130
+2025-04-14 14:34:14,471 - INFO - Button name received: lobby_borg_red
+2025-04-14 14:34:20,040 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-14 14:34:22,897 - WARNING - 'lobby_borg_red' not found 130
+2025-04-14 15:14:25,281 - INFO - Button name received: lobby_borg_red
+2025-04-14 15:14:30,822 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-14 15:14:33,704 - WARNING - 'lobby_borg_red' not found 130
+2025-04-14 17:13:57,143 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-14 17:14:02,795 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-14 17:14:05,650 - WARNING - 'lobby_borg_red' not found 130
+2025-04-14 17:59:50,425 - INFO - Button name received: alert_button
+2025-04-14 18:00:07,651 - INFO - Button name received: alertstop_button
+2025-04-14 18:01:15,655 - INFO - Button name received: alert_button
+2025-04-14 18:02:24,854 - INFO - Button name received: alertstop_button
+2025-04-14 18:16:42,146 - INFO - Button name received: alertstop_button
+2025-04-14 18:16:42,381 - WARNING - 'alertstop_button' not found 130
+2025-04-14 20:40:11,686 - INFO - Button name received: alertstop_button
+2025-04-14 20:40:11,961 - WARNING - 'alertstop_button' not found 130
+2025-04-14 20:49:00,409 - INFO - Button name received: alertstop_button
+2025-04-14 21:22:16,252 - INFO - Button name received: alertstop_button
+2025-04-14 21:22:16,475 - INFO - Button name received: alertstop_button
+2025-04-14 21:22:16,510 - WARNING - 'alertstop_button' not found 130
+2025-04-14 21:22:16,715 - WARNING - 'alertstop_button' not found 130
+2025-04-14 21:28:27,876 - INFO - Button name received: alertstop_button
+2025-04-14 21:28:28,114 - WARNING - 'alertstop_button' not found 130
+2025-04-14 21:57:53,843 - INFO - Button name received: alertstop_button
+2025-04-14 21:57:54,060 - WARNING - 'alertstop_button' not found 130
+2025-04-15 00:24:46,113 - INFO - Button name received: alertstop_button
+2025-04-15 01:00:25,352 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-15 01:00:31,002 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-15 01:00:33,877 - WARNING - 'lobby_borg_red' not found 130
+2025-04-15 01:12:17,863 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-15 01:12:23,538 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-15 01:12:26,391 - WARNING - 'lobby_borg_red' not found 130
+2025-04-15 13:47:43,473 - INFO - Button name received: alertstop_button
+2025-04-15 13:47:43,726 - WARNING - 'alertstop_button' not found 130
+2025-04-15 16:08:40,950 - INFO - Button name received: alertstop_button
+2025-04-15 16:08:41,185 - WARNING - 'alertstop_button' not found 130
+2025-04-15 16:08:44,642 - INFO - Button name received: alertstop_button
+2025-04-15 16:08:44,881 - WARNING - 'alertstop_button' not found 130
+2025-04-15 17:16:33,743 - WARNING - Button not found using image: images/0ad/spiel_beitreten_button_small.png
+2025-04-15 17:16:36,606 - WARNING - 'lobby_borg_red' not found 130
+2025-04-15 17:19:47,549 - WARNING - Button not found using image: images/0ad/spiel_beitreten_button_small.png
+2025-04-15 17:19:50,411 - WARNING - 'lobby_borg_red' not found 130
+2025-04-15 17:37:43,278 - INFO - Button name received: alertstop_button
+2025-04-15 17:37:43,540 - WARNING - 'alertstop_button' not found 130
+2025-04-15 17:38:46,264 - INFO - Button name received: alertstop_button
+2025-04-15 17:38:46,493 - WARNING - 'alertstop_button' not found 130
+2025-04-15 19:01:33,679 - INFO - Button name received: alertstop_button
+2025-04-15 19:01:33,910 - WARNING - 'alertstop_button' not found 130
+2025-04-15 19:55:56,295 - INFO - Button name received: alert_button
+2025-04-15 19:56:47,479 - INFO - Button name received: alertstop_button
+2025-04-15 21:26:39,751 - WARNING - Button not found using image: images/0ad/ja_button.png
+2025-04-15 21:26:39,757 - WARNING - 'lobby_borg_red' not found 130
+2025-04-15 21:46:43,151 - INFO - Button name received: alertstop_button
+2025-04-16 19:24:44,804 - WARNING - Button not found using image: images/0ad/mehrspieler_button.png
+2025-04-16 19:24:44,810 - WARNING - 'mehrspieler_button' not found 130
+2025-04-16 19:41:35,910 - INFO - Button name received: alertstop_button
+2025-04-16 19:41:36,157 - WARNING - 'alertstop_button' not found 130
+2025-04-16 19:41:39,514 - INFO - Button name received: alertstop_button
+2025-04-16 19:41:39,751 - WARNING - 'alertstop_button' not found 130
+2025-04-16 20:28:23,207 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-16 20:28:32,594 - WARNING - Button not found using image: images/0ad/ja_button.png
+2025-04-16 20:28:32,594 - WARNING - 'lobby_borg_red' not found 130
+2025-04-16 22:39:40,390 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-16 22:39:46,063 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-16 22:39:46,063 - WARNING - 'lobby_borg_red' not found 130
+2025-04-17 22:00:59,871 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-17 22:09:03,686 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-17 22:46:53,738 - INFO - Button name received: alert_button
+2025-04-17 22:47:54,322 - INFO - Button name received: alert_button
+2025-04-17 22:47:59,993 - INFO - Button name received: alert_button
+2025-04-17 22:48:20,797 - INFO - Button name received: alert_button
+2025-04-17 22:55:35,793 - INFO - Button name received: alertstop_button
+2025-04-17 22:55:36,030 - WARNING - 'alertstop_button' not found 130
+2025-04-18 09:42:51,815 - WARNING - Button not found using image: images/0ad/mehrspieler_button.png
+2025-04-18 09:42:51,817 - WARNING - 'mehrspieler_button' not found 130
+2025-04-18 14:15:04,259 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-18 14:15:04,491 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-18 14:15:04,491 - WARNING - 'lobby_borg_red' not found 130
+2025-04-18 15:40:49,151 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-18 15:40:49,372 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-18 15:40:49,373 - WARNING - 'lobby_borg_red' not found 130
+2025-04-18 15:49:05,158 - WARNING - Button not found using image: images/0ad/mehrspieler_button.png
+2025-04-18 15:49:05,158 - WARNING - 'mehrspieler_button' not found 130
+2025-04-18 15:49:24,493 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-18 15:49:24,735 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-18 15:49:24,974 - WARNING - Button not found using image: images/0ad/lobby_stockfish_red.png
+2025-04-18 15:49:24,975 - WARNING - 'lobby_op_player_red' not found 130
+2025-04-18 15:52:22,845 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-18 15:52:23,097 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-18 15:52:23,344 - WARNING - Button not found using image: images/0ad/lobby_stockfish_red.png
+2025-04-18 15:52:23,344 - WARNING - 'lobby_op_player_red' not found 130
+2025-04-18 15:55:20,359 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-18 15:55:20,584 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-18 15:55:20,813 - WARNING - Button not found using image: images/0ad/lobby_stockfish_red.png
+2025-04-18 15:55:21,045 - WARNING - Button not found using image: images/0ad/lobby_stockfish_red2.png
+2025-04-18 15:55:21,045 - WARNING - 'lobby_op_player_red' not found 130
+2025-04-18 15:55:49,223 - WARNING - Button not found using image: images/0ad/lobby_borg_red.png
+2025-04-18 15:55:49,469 - WARNING - Button not found using image: images/0ad/lobby_havrun_red.png
+2025-04-18 15:55:49,711 - WARNING - Button not found using image: images/0ad/lobby_stockfish_red.png
+2025-04-18 15:56:30,013 - INFO - Button name received: alertstop_button
+2025-04-18 15:56:30,267 - WARNING - 'alertstop_button' not found 130

@@ -1,0 +1,45 @@
+QObject::moveToThread: Current thread (0x563c19380c60) is not the object's thread (0x563c196b19e0).
+Cannot move to target thread (0x563c19380c60)
+
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "/home/seeh/projects/oad-visual-test-automation/autogui_01_env/lib/python3.13/site-packages/cv2/qt/plugins" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: xcb, eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx.
+
+Fatal Python error: Aborted
+
+Current thread 0x0000789bb5616bc0 (most recent call first):
+  File "/usr/lib/python3.13/site-packages/autokey/qtapp.py", line 98 in __init__
+  File "/usr/bin/autokey-qt", line 8 in <module>
+
+Extension modules: PyQt5.QtCore, _dbus_bindings, PyQt5.QtGui, PyQt5.QtWidgets, PyQt5.QtSvg, PyQt5.QtPrintSupport, PyQt5.Qsci, PyQt5.QtDBus (total: 8)
+QObject::moveToThread: Current thread (0x5aa62a70fc60) is not the object's thread (0x5aa62ad26d20).
+Cannot move to target thread (0x5aa62a70fc60)
+
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "/home/seeh/projects/oad-visual-test-automation/autogui_01_env/lib/python3.13/site-packages/cv2/qt/plugins" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: xcb, eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx.
+
+Fatal Python error: Aborted
+
+Current thread 0x0000703c17a20bc0 (most recent call first):
+  File "/usr/lib/python3.13/site-packages/autokey/qtapp.py", line 98 in __init__
+  File "/usr/bin/autokey-qt", line 8 in <module>
+
+Extension modules: PyQt5.QtCore, _dbus_bindings, PyQt5.QtGui, PyQt5.QtWidgets, PyQt5.QtSvg, PyQt5.QtPrintSupport, PyQt5.Qsci, PyQt5.QtDBus (total: 8)
+QObject::moveToThread: Current thread (0x62e3143c9c60) is not the object's thread (0x62e314b5fc20).
+Cannot move to target thread (0x62e3143c9c60)
+
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "/home/seeh/projects/oad-visual-test-automation/autogui_01_env/lib/python3.13/site-packages/cv2/qt/plugins" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: xcb, eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx.
+
+Fatal Python error: Aborted
+
+Current thread 0x00007881ddc91bc0 (most recent call first):
+  File "/usr/lib/python3.13/site-packages/autokey/qtapp.py", line 98 in __init__
+  File "/usr/bin/autokey-qt", line 8 in <module>
+
+Extension modules: PyQt5.QtCore, _dbus_bindings, PyQt5.QtGui, PyQt5.QtWidgets, PyQt5.QtSvg, PyQt5.QtPrintSupport, PyQt5.Qsci, PyQt5.QtDBus (total: 8)

@@ -1,10 +1,13 @@
 import pyautogui
+# import pyperclip
 import time
+from datetime import datetime as dt
 import subprocess
 import os
 import json
 import sys
 import logging
+import re
 
 # Configure logging
 logging.basicConfig(filename='debug.log', level=logging.INFO,
@@ -83,7 +86,7 @@ def locate_button(image_files, confidence=0.7, last_location=None, tolerance=50)
         except pyautogui.ImageNotFoundException:
             if button_name != "alertstop_button":
                 print(f"Button not found using image: {image_file}")
-                speak(f"Button not found using image: {image_file}")
+                # speak(f"Button not found using image: {image_file}")
                 logging.warning(f"Button not found using image: {image_file}")
     return None
 
@@ -123,47 +126,142 @@ def click_button(button_image, button_name, confidence=0.7, sleep_after=DEFAULT_
             image_locations[button_image] = (int(x), int(y), int(width), int(height)) # save all info to the JSON
 
         save_image_locations(image_locations)  # save this location.
+
+        if button_name == "einstellungen_button":
+            button_name222 = 'mod-auswahl_button'
+            image1 = f'images/0ad/{button_name222}.png'
+            #speak(f"{image1}")
+            single_player_images = [image1]
+            click_button(single_player_images, f'{button_name222}')
+
+
+        if button_name == "neues_spiel_hosten_button":
+
+            # Pause AutoKey
+            # store.set_global_value("autokeypause",True)
+            # subprocess.run(["pkill", "autokey-qt"]) # works
+
+            #time.sleep(.1)
+
+            #for i in range(0, 11):
+            #    pyautogui.press("backspace")
+            pyautogui.hotkey('shift', 'home')  # Select text from cursor to beginning
+            # time.sleep(0.1)  # Small delay to ensure selection
+            pyautogui.press('delete')  # Delete the selected text
+
+            # now = dt.now()
+            now = dt.now()
+            nowM = f"{now.hour}:{now.minute}"
+            # text_to_write = f" BTW: #0ad-unofficial:matrix.org,  matrix.to/#/#0ad-unofficial:matrix.org Group created by fans."
+
+            # text_to_write = f" BTW: 0ad-unofficial:matrix.org Group created by fans."
+            text_to_write_M = """
+I 0ad-unofficial:matrix.org
+I youtube.com plan0go
+I twitch.tv seeh74
+I mastodon social.tchncs.de seeh
+I i >50y
+I search mod disable phase 3
+I tommorow wheter here is great
+I replay-pallas.wildfiregames.ovh
+"""
+
+            # text_to_write = text_to_write_M.replace("[\n\r\t]+", "  ")
+            text_to_write = re.sub(r'[\n\r\t]+', ' ', text_to_write_M)
+
+            pyautogui.typewrite(f"{nowM} CET {text_to_write}") # works
+            # pyautogui.typewrite(" we versus AI") # works
+            # pyautogui.typewrite("BTW: 0ad-unofficial:matrix.org,  matrix.to\\/\\#\\/#0ad-unofficial:matrix.org Group created by fans.")
+
+            # time.sleep(0.1)  # Small delay to ensure selection
+            # text_to_write = "test"
+            # pyperclip.copy(text_to_write)  # Copy the string to the clipboard
+            # time.sleep(0.1)  # Small delay to ensure selection
+            # pyautogui.hotkey('ctrl', 'v')  # Paste (Ctrl+V)
+
+            button_name222 = 'fortfahren_button'
+            image1 = f'images/0ad/{button_name222}.png'
+            #speak(f"{image1}")
+            single_player_images = [image1]
+            click_button(single_player_images, f'{button_name222}')
+
+
+            # Unpause AutoKey WORKS NOT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            # store.set_global_value("autokeypause",False)
+            #subprocess.Popen(["autokey-qt"])
+            # subprocess.Popen(["~/Apps/0ad_stuff.sh"])
+            # os.system("autokey-qt &")  # The '&' runs it in the background
+            #process = subprocess.Popen(["autokey-qt"])
+
+            time.sleep(.3)
+
     else:
-        if button_name != "alertstop_button":
-            speak(f"{button_name} not found 130")
+        # if button_name != "alertstop_button":
+        #    speak(f"{button_name} not found 130")
         logging.warning(f"'{button_name}' not found 130")
-        end_0ad()
         exit()
 
 if __name__ == "__main__":
 
-    button_name = sys.argv[1]
-
-    button_name = sys.argv[1]
-    logging.info(f"Button name received: {button_name}")
+    button_name = ""
+    if len(sys.argv) >1:
+        button_name = sys.argv[1]
+        logging.info(f"Button name received: {button_name}")
 
     global image_locations  # Use it here in global
-
     image_locations = load_image_locations()  # Load image locations at script start
+
+    if button_name == "":
+        speak(f"button_name empty empty empty empty")
+
+        button_name222 = 'mehrspieler_button'
+        image1 = f'images/0ad/{button_name222}.png'
+        single_player_images = [image1]
+        click_button(single_player_images, f'{button_name222}')
+
+        button_name222 = 'mehrspieler_lobby_button'
+        image1 = f'images/0ad/{button_name222}.png'
+        single_player_images = [image1]
+        click_button(single_player_images, f'{button_name222}')
+
+
+        button_name222 = 'verbinden_button'
+        image1 = f'images/0ad/{button_name222}.png'
+        single_player_images = [image1]
+        click_button(single_player_images, f'{button_name222}', confidence=0.9)
+
+        time.sleep(.5)
+
+        p = 'images/0ad/'
+
+        button_name222 = 'lobby_op_player_red'
+        image1 = f'{p}lobby_borg_red.png'
+        image2 = f'{p}lobby_havrun_red.png'
+        image3 = f'{p}lobby_stockfish_red.png'
+        image4 = f'{p}lobby_stockfish_red2.png'
+
+
+        single_player_images = [image1,image2,image3,image4]
+        click_button(single_player_images, f'{button_name222}', confidence=0.8)
+
+        image1 = f'{p}spiel_beitreten_button_small.png'
+        single_player_images = [image1]
+        click_button(single_player_images, f'{button_name222}', confidence=0.9)
+
+        # wors but i will not join every game maybe. wait and think before press yes
+        # click_button([f'{p}ja_button.png'], f'{button_name222}', confidence=0.9)
+
+        exit(1)
 
     # single_player_images = ['images/0ad/alert_button.png'] # thats how it looks before
     image1 = f'images/0ad/{button_name}.png'
     #speak(f"{image1}")
+
+    #if button_name = "neues_spiel_hosten_button":
+    #    single_player_images = [image1]
+
+
     single_player_images = [image1]
     click_button(single_player_images, f'{button_name}')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
